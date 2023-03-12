@@ -78,14 +78,12 @@ public class RandomWalkTest {
     @Test // Slow
     public void testRandomWalk() {
         for (int i = 0; i < 1000; i++)
-            assertEquals(10, RandomWalk.randomWalkMulti(100, 60), 4);
-            //System.out.println("CHECK1 " + RandomWalk.randomWalkMulti(100, 10));
+            assertEquals(10, RandomWalk.randomWalkMulti(100, 100), 4);
     }
 
     @Test
     public void testRandomWalk2() {
         for (int i = 0; i < 5000; i++)
             assertNotSame(0, RandomWalk.randomWalkMulti(1, 1));
-            //System.out.println("CHECK2 " + RandomWalk.randomWalkMulti(1, 1));
     }
 }

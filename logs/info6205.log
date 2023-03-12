@@ -1,72 +1,45 @@
-2023-01-20 18:50:11 INFO  BucketSort - 0
-2023-01-20 18:50:11 INFO  BucketSort - 24944742
-2023-01-20 18:50:12 INFO  Benchmark_Timer - Begin run: testWaitPeriods with 2 runs
-2023-01-20 18:50:12 INFO  SorterBenchmark - run: sort 4 elements using SorterBenchmark on class java.lang.String from 4 total elements and 100 runs using sorter: Insertion sort
-2023-01-20 18:50:12 INFO  Benchmark_Timer - Begin run: Helper for Insertion sort with 0 elements with 100 runs
-2023-01-20 18:50:12 INFO  TimeLogger - test .00
-2023-01-20 18:50:14 INFO  OperationsBenchmark - OperationsBenchmark.runBenchmarks: largest 100000 integers with 1000 repetitions
-2023-01-20 18:50:14 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-20 18:50:14 INFO  TimeLogger - Normalized time per run (n):  .00
-2023-01-20 18:50:14 INFO  OperationsBenchmark - OperationsBenchmark.runBenchmarks: compareAdjacent 100000 integers with 1000 repetitions
-2023-01-20 18:50:14 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-20 18:50:14 INFO  TimeLogger - Normalized time per run (n):  .00
-2023-01-20 18:50:14 INFO  OperationsBenchmark - OperationsBenchmark.runBenchmarks: compareAdjacentOptimized 100000 integers with 1000 repetitions
-2023-01-20 18:50:14 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-20 18:50:14 INFO  TimeLogger - Normalized time per run (n):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadratic with 100 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadrithmic with 100 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2 log n):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumCubic with 100 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^3):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadratic with 50 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadrithmic with 50 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2 log n):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumCubic with 50 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^3):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadratic with 20 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadrithmic with 20 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2 log n):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumCubic with 20 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^3):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadratic with 10 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadrithmic with 10 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2 log n):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumCubic with 10 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^3):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadratic with 5 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadrithmic with 5 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2 log n):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumCubic with 5 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^3):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadratic with 3 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadrithmic with 3 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2 log n):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadratic with 2 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2):  .00
-2023-01-28 15:27:29 INFO  Benchmark_Timer - Begin run: ThreeSumQuadrithmic with 2 runs
-2023-01-28 15:27:29 INFO  TimeLogger - Raw time per run (mSec):  .00
-2023-01-28 15:27:29 INFO  TimeLogger - Normalized time per run (n^2 log n):  .00
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 10,000 elements using SorterBenchmark on class java.lang.Integer from 10,000 total elements and 1 runs using sorter: HeapSort
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 10,000 elements using SorterBenchmark on class java.lang.Integer from 10,000 total elements and 1 runs using sorter: MergeSort
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 10,000 elements using SorterBenchmark on class java.lang.Integer from 10,000 total elements and 1 runs using sorter: QuickSort
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort with 10,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for HeapSort with 10,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 10,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 20,000 elements using SorterBenchmark on class java.lang.Integer from 20,000 total elements and 1 runs using sorter: QuickSort
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 20,000 elements using SorterBenchmark on class java.lang.Integer from 20,000 total elements and 1 runs using sorter: HeapSort
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 20,000 elements using SorterBenchmark on class java.lang.Integer from 20,000 total elements and 1 runs using sorter: MergeSort
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for HeapSort with 20,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 20,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort with 20,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 40,000 elements using SorterBenchmark on class java.lang.Integer from 40,000 total elements and 1 runs using sorter: MergeSort
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 40,000 elements using SorterBenchmark on class java.lang.Integer from 40,000 total elements and 1 runs using sorter: QuickSort
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 40,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 40,000 elements using SorterBenchmark on class java.lang.Integer from 40,000 total elements and 1 runs using sorter: HeapSort
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort with 40,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for HeapSort with 40,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 80,000 elements using SorterBenchmark on class java.lang.Integer from 80,000 total elements and 1 runs using sorter: HeapSort
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 80,000 elements using SorterBenchmark on class java.lang.Integer from 80,000 total elements and 1 runs using sorter: QuickSort
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 80,000 elements using SorterBenchmark on class java.lang.Integer from 80,000 total elements and 1 runs using sorter: MergeSort
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for HeapSort with 80,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort with 80,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 80,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 160,000 elements using SorterBenchmark on class java.lang.Integer from 160,000 total elements and 1 runs using sorter: MergeSort
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 160,000 elements using SorterBenchmark on class java.lang.Integer from 160,000 total elements and 1 runs using sorter: QuickSort
+2023-03-14 21:14:35 INFO  SorterBenchmark - run: sort 160,000 elements using SorterBenchmark on class java.lang.Integer from 160,000 total elements and 1 runs using sorter: HeapSort
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 160,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort with 160,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  Benchmark_Timer - Begin run: Instrumenting helper for HeapSort with 160,000 elements with 1 runs
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00
+2023-03-14 21:14:35 INFO  TimeLogger - Raw time per run (mSec):  .00

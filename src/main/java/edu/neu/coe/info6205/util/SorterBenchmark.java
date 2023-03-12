@@ -29,6 +29,14 @@ public class SorterBenchmark<T extends Comparable<T>> extends Benchmark_Timer<T[
         for (TimeLogger timeLogger : timeLoggers) timeLogger.log(time, N);
     }
 
+    public double rund(int N) {
+        logger.info("run: sort " + formatWhole(N) + " elements using " + this);
+        sorter.init(N);
+        final double time = super.runFromSupplier(() -> generateRandomArray(ts), nRuns);
+        for (TimeLogger timeLogger : timeLoggers) timeLogger.log(time, N);
+        return time;
+    }
+
     @Override
     public String toString() {
         return "SorterBenchmark on " + tClass + " from " + formatWhole(ts.length) + " total elements and " + formatWhole(nRuns) + " runs using sorter: " + sorter.getHelper().getDescription();
@@ -45,6 +53,8 @@ public class SorterBenchmark<T extends Comparable<T>> extends Benchmark_Timer<T[
      * @param nRuns         the number of runs to perform in this benchmark.
      * @param timeLoggers   the time-loggers.
      */
+
+
     public SorterBenchmark(Class<T> tClass, UnaryOperator<T[]> preProcessor, SortWithHelper<T> sorter, Consumer<T[]> postProcessor, T[] ts, int nRuns, TimeLogger[] timeLoggers) {
         super(sorter.toString(), preProcessor, sorter::mutatingSort, postProcessor);
         this.sorter = sorter;
@@ -94,5 +104,9 @@ public class SorterBenchmark<T extends Comparable<T>> extends Benchmark_Timer<T[
     protected final TimeLogger[] timeLoggers;
     private final static LazyLogger logger = new LazyLogger(SorterBenchmark.class);
     private final Class<T> tClass;
+//	public double rund(int n) {
+//		// TODO Auto-generated method stub
+//		return 0;
+//	}
 
 }

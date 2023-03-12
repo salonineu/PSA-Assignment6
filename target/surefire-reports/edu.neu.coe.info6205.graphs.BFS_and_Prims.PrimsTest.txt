@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: edu.neu.coe.info6205.graphs.BFS_and_Prims.PrimsTest
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
